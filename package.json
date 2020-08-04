@@ -1,0 +1,49 @@
+{
+  "name": "tr-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://scm.trendvg3.com/online/tr-api.git",
+  "author": "dagdun <dagdun@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test:react": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "node_modules/nodemon/bin/nodemon.js server.js",
+    "test:server": "jest --testTimeout=10000 --watch"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "mongodb-memory-server": "^6.5.2",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
