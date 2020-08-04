@@ -6,16 +6,25 @@ copy `.env.test` to `.env`
 
 ## start dev
 
-`yarn dev`
+`yarn server`
 
-## unittest
+## unittest for server
 
-`yarn test`
+`yarn test:server`
+
+## start react dev
+
+`yarn start`
+
+## unittest for server
+
+`yarn test:react`
 
 ## file structure
 
 `
-
+public
+server
 - controllers
   -- v1.0/[controller file]
 - libs [lib/util/etc]
@@ -23,4 +32,7 @@ copy `.env.test` to `.env`
 - routes [router]
 - tests [unittest]
 - server.js
+src
+- components
+- libs
   `

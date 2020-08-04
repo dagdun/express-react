@@ -10,7 +10,7 @@
     "build": "react-scripts build",
     "test:react": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "node_modules/nodemon/bin/nodemon.js server.js",
+    "server": "node_modules/nodemon/bin/nodemon.js server",
     "test:server": "jest --testTimeout=10000 --watch"
   },
   "dependencies": {
@@ -26,7 +26,6 @@
     "react-scripts": "3.4.1"
   },
   "devDependencies": {
-    "jest": "^25.1.0",
     "mongodb-memory-server": "^6.5.2",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
